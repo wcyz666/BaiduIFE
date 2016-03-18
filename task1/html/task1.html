@@ -2,9 +2,108 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>task1.1</title>
+    <style>
+    	.fit{
+    		max-width: 100%;
+    		max-height: 100%;
+    	}
+    </style>
 </head>
 <body>
+    <h1>Let us introduce our school!</h1>
+    <ul>
+        <li><a href="#stanford"> Stanford University</a></li>
+        <li><a href="#CMU"> Carnegie Mellon University</a></li>
+        <li><a href="#UCSD"> University of California, San diego</a></li>
+    </ul>
+
+    <div id="stanford">
+    	<h2>Welcome to Stanford University!</h2>
+    	<p>
+    		Stanford University, officially Leland Stanford Junior University, is a private research university in Stanford, California, and one of the world's most prestigious institutions. Detailed information click <a href="https://www.stanford.edu/">here</a>
+    	</p>
+    	<img src="../img/stanford.jpg" alt="picture of stanford" class="fit">
+    	<h3>History</h3>
+    	<p>
+    		The university officially opened on October 1, 1891 to 555 students. On the university's opening day, Founding President David Starr Jordan (1851–1931) said to Stanford's Pioneer Class: "[Stanford] is hallowed by no traditions; it is hampered by none. Its finger posts all point forward." However, much preceded the opening and continued for several years until the death of the last Founder, Jane Stanford, in 1905 and the destruction of the 1906 earthquake.
+    	</p>
+    </div>
+
+    <div id="CMU">
+    	<h2>Welcome to Carnegie Mellon University!</h2>
+    	<p>
+    		Carnegie Mellon University is a private research university in Pittsburgh, Pennsylvania.
+    	</p>
+    	<img src="../img/cmu.jpg" alt="picture of CMU" class="fit">
+    	<ul>
+    		<li>History</li>
+    		<li>Location</li>
+    		<li>Reputation</li>
+    	</ul>
+    	<h3>Some pictures</h3>
+    	<figure>
+    		<img src="../img/cmu_seal.png" alt="CMU seal" width="300" height="300">
+    		<figcaption>CMU seal</figcaption>
+    	</figure>
+    	
+    	<figure>
+    		<img src="../img/studentunion.jpg" alt="CMU student activity" width="450" height="300">
+    		<figcaption>CMU student activity</figcaption>
+    	</figure>
+
+    </div>
+
+    <div id="UCSD">
+    	<h2>Welcome to University of California, San Diego!</h2>
+    	<h3>Core courses in Computer Science major</h3>
+    	<ol>
+    		<li>CSE202: Algorithm</li>
+    		<li>CSE221: Operation System</li>
+    		<li>CSE250: Machine Learning</li>
+    	</ol>
+    	<p> More courses are listed below:</p>
+    	<table border="1">
+    		<tr>
+    			<td>Course nunber</td>
+    			<td>Course name</td>
+    			<td>Course website</td>
+    		</tr>
+    		<tr>
+    			<td>CSE200</td>
+    			<td>Computability and Complexity</td>
+    			<td><a href="http://cseweb.ucsd.edu/classes/wi16/cse200-a/">website</a> </td>
+    		</tr>
+    		<tr>
+    			<td>ECE250</td>
+    			<td>Random Process</td>
+    			<td><a href="http://circuit.ucsd.edu/~yhk/ece250-win16/">website</a> </td>
+    		</tr>
+    	</table>
+    </div>
+
+    <div id="sideCol">
+    	<h2>Simple questionair</h2>
+    	<form id="usrform">
+    		First name:<input type="text" name="firstname" value="Zhenghui"></br>
+    		Last name:<input type="text" name="lastname" value="Lai"></br>
+    		Sex: 
+    		<input type="radio" name="gender" value="male" checked> Male 
+    		<input type="radio" name="gender" value="female" > Female</br>
+    		City: 
+    		<select name="city">
+    				<option value="sd">San diego</option>
+    				<option value="sf">San fransisco</option>
+    				<option value="sea">Seattle</option>
+    		</select></br>
+    		Hobby: 
+    		<input type="checkbox" name="hobby" value="run"> running 
+    		<input type="checkbox" name="hobby" value="swim"> swimming</br>
+    	</form>
+    	<textarea rows="4" cols="50" name="comment" form="usrform">
+			Add more description here
+		</textarea>
+    </div>
 
 </body>
 </html>
