@@ -8,9 +8,12 @@ link: [http://ife.baidu.com/task/all](http://ife.baidu.com/task/all)
 
 ######Done
 
+3.18
+Task 1(easy): Basic HTML Programming
+
 ######TODO list
 
-Task 1(easy): Basic HTML Programming
+~~Task 1(easy): Basic HTML Programming~~
 
 Task 2(easy): Basic HTML and CSS Programming - 1
 
