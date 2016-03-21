@@ -1,0 +1,29 @@
+div.container {
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+}
+
+div.top {
+    width: 50px;
+    height: 50px;
+    background-color: #fc0;
+    border-bottom-right-radius: 50px;
+}
+
+div.bottom {
+    width: 50px;
+    height: 50px;
+    background-color: #fc0;
+    border-top-left-radius: 50px;
+    position: relative;
+    top: 100%;
+    left: 100%;
+    margin-left: -50px;
+    margin-top: -100px;
+}
