@@ -15,14 +15,11 @@ nav {
 .header-ul li {
     display: inline-block;
 }
-.header-ul li a {
-    color: #cccccc;
-    text-decoration: none;
-}
-.header-ul li a:hover {
+.header-ul li a{
     color: white;
     text-decoration: none;
 }
+
 .main {
     padding: 30px;
     background-color: #cccccc;
