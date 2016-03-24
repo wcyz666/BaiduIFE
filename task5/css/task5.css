@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: black;
+    width: 100%;
+}
+
+.header-ul {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+.header-ul li {
+    display: inline-block;
+}
+.header-ul li a {
+    color: #cccccc;
+    text-decoration: none;
+}
+.header-ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+.main {
+    padding: 30px;
+    background-color: #cccccc;
+}
+article, aside {
+    margin: 40px auto 40px auto;
+    background-color: white;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 30px 0 30px 10px;
+}
+
+hgroup {
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+}
+
+hgroup h2 {
+     margin: 10px 0 10px 0;
+}
+
+hgroup h3 {
+    color: darkgrey;
+}
+
+.author {
+    font-size: 12px;
+    color: #cccccc;
+}
+.content {
+    margin: 30px 0 30px 0;
+}
+.content p {
+    line-height: 28px;
+    font-size: 18px;
+    text-indent: 2em;
+}
+.content ul {
+    list-style: none;
+    margin-left: 40px;
+    line-height: 28px;
+}
+
+.content ol {
+    margin-left: 40px;
+    line-height: 28px;
+}
+
+figure {
+    margin: 10px;
+}
+
+figure.figure-thumb {
+    display:inline-block;
+    margin: 10px 20px 10px 20px;
+    width: 200px;
+    border: 2px solid #bbbbbb;
+}
+
+figure.figure-thumb figcaption {
+
+     margin: 20px auto auto;
+     text-align: center;
+     font-size: 18px;
+     font-color: #555555;
+}
+
+figure.figure-thumb img {
+    width: 180px;
+    margin: 10px;
+
+}
+
+table.content-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.content-table thead {
+    color: aliceblue;
+    background-color: black;
+}
+
+table.content-table tfoot {
+    background-color: darkgray;
+    font-weight: bold;;
+}
+
+table.content-table td, table.content-table th {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.main-container {
+    margin-right: 450px;
+}
+
+aside {
+    width: 400px;
+    float: right;
+    display: block;
+}
+
+aside hgroup {
+    margin-left: 10px;
+    padding-left: 20px;
+    border-left: 3px #555555 solid;
+}
+
+aside .form-content {
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+
+
+aside .input-group {
+     padding: 10px;
+    line-height: 30px;
+     display: table-row
+}
+
+
+aside .input-submit {
+    padding: 10px;
+    line-height: 30px;
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+aside .input-submit input[type=submit] {
+    width: 95%;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+aside .input-group p{
+    color: #bbbbbb;
+    margin: 5px;
+    display: table-row
+}
+
+aside .input-group textarea,
+aside .input-group input,
+aside .input-group p,
+aside .input-group span,
+aside .input-group select {
+    margin-top: 5px;
+    vertical-align: middle;
+    display: table-cell;
+    float: left;
+}
+
+aside .input-group textarea {
+    width: 50%;
+    height: 100px;
+    vertical-align: bottom;
+}
+aside .input-group input,
+aside .input-group select {
+    margin-top: 10px;
+
+}
+
+aside .input-group label{
+    display: table-cell;
+    text-align: right;
+    vertical-align: top;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
